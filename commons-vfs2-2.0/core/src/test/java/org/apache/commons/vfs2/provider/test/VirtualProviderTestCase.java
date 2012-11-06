@@ -14,17 +14,17 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.apache.commons.vfs2.provider.test;
+package org.apache.commons.vfs.provider.test;
 
 import java.io.File;
 
 import junit.framework.Test;
 
 import org.apache.commons.AbstractVfsTestCase;
-import org.apache.commons.vfs2.FileObject;
-import org.apache.commons.vfs2.FileSystemManager;
-import org.apache.commons.vfs2.test.AbstractProviderTestConfig;
-import org.apache.commons.vfs2.test.ProviderTestSuite;
+import org.apache.commons.vfs.FileObject;
+import org.apache.commons.vfs.FileSystemManager;
+import org.apache.commons.vfs.test.AbstractProviderTestConfig;
+import org.apache.commons.vfs.test.ProviderTestSuite;
 
 /**
  * Test cases for the virtual file system provider.

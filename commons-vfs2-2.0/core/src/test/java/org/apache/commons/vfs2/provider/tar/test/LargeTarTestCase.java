@@ -14,7 +14,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.apache.commons.vfs2.provider.tar.test;
+package org.apache.commons.vfs.provider.tar.test;
 
 import java.io.File;
 import java.io.FileOutputStream;
@@ -33,12 +33,12 @@ import org.apache.commons.compress.archivers.tar.TarArchiveOutputStream;
 import org.apache.commons.compress.compressors.CompressorStreamFactory;
 import org.apache.commons.compress.compressors.gzip.GzipCompressorOutputStream;
 import org.apache.commons.compress.utils.IOUtils;
-import org.apache.commons.vfs2.CacheStrategy;
-import org.apache.commons.vfs2.FileObject;
-import org.apache.commons.vfs2.cache.SoftRefFilesCache;
-import org.apache.commons.vfs2.impl.DefaultFileSystemManager;
-import org.apache.commons.vfs2.provider.local.DefaultLocalFileProvider;
-import org.apache.commons.vfs2.provider.tar.TarFileProvider;
+import org.apache.commons.vfs.CacheStrategy;
+import org.apache.commons.vfs.FileObject;
+import org.apache.commons.vfs.cache.SoftRefFilesCache;
+import org.apache.commons.vfs.impl.DefaultFileSystemManager;
+import org.apache.commons.vfs.provider.local.DefaultLocalFileProvider;
+import org.apache.commons.vfs.provider.tar.TarFileProvider;
 
 //@SuppressWarnings("nls")
 public class LargeTarTestCase extends TestCase {

@@ -14,12 +14,12 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.apache.commons.vfs2.provider.local.test;
+package org.apache.commons.vfs.provider.local.test;
 
 import java.io.File;
 
-import org.apache.commons.vfs2.FileObject;
-import org.apache.commons.vfs2.test.AbstractProviderTestCase;
+import org.apache.commons.vfs.FileObject;
+import org.apache.commons.vfs.test.AbstractProviderTestCase;
 
 /**
  * Additional naming tests for local file system.

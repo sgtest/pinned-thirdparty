@@ -14,16 +14,16 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.apache.commons.vfs2.impl.test;
+package org.apache.commons.vfs.impl.test;
 
 import java.net.URL;
 import java.net.URLConnection;
 
-import org.apache.commons.vfs2.Capability;
-import org.apache.commons.vfs2.FileObject;
-import org.apache.commons.vfs2.FileSystemException;
-import org.apache.commons.vfs2.impl.VFSClassLoader;
-import org.apache.commons.vfs2.test.AbstractProviderTestCase;
+import org.apache.commons.vfs.Capability;
+import org.apache.commons.vfs.FileObject;
+import org.apache.commons.vfs.FileSystemException;
+import org.apache.commons.vfs.impl.VFSClassLoader;
+import org.apache.commons.vfs.test.AbstractProviderTestCase;
 
 /**
  * VfsClassLoader test cases.

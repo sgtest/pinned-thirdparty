@@ -14,15 +14,15 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.apache.commons.vfs2.test;
+package org.apache.commons.vfs.test;
 
-import org.apache.commons.vfs2.Capability;
-import org.apache.commons.vfs2.FileObject;
-import org.apache.commons.vfs2.FileSelectInfo;
-import org.apache.commons.vfs2.FileSelector;
-import org.apache.commons.vfs2.FileType;
-import org.apache.commons.vfs2.FileTypeSelector;
-import org.apache.commons.vfs2.Selectors;
+import org.apache.commons.vfs.Capability;
+import org.apache.commons.vfs.FileObject;
+import org.apache.commons.vfs.FileSelectInfo;
+import org.apache.commons.vfs.FileSelector;
+import org.apache.commons.vfs.FileType;
+import org.apache.commons.vfs.FileTypeSelector;
+import org.apache.commons.vfs.Selectors;
 
 /**
  * File system test that do some delete operations.

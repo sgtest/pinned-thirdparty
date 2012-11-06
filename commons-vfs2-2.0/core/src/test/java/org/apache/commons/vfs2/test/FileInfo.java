@@ -14,12 +14,12 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.apache.commons.vfs2.test;
+package org.apache.commons.vfs.test;
 
 import java.util.HashMap;
 import java.util.Map;
 
-import org.apache.commons.vfs2.FileType;
+import org.apache.commons.vfs.FileType;
 
 /**
  * Info about a file.

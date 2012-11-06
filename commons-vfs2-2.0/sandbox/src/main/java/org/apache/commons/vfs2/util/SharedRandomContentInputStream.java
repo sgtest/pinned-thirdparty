@@ -14,7 +14,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.apache.commons.vfs2.util;
+package org.apache.commons.vfs.util;
 
 import java.io.BufferedInputStream;
 import java.io.IOException;
@@ -24,10 +24,10 @@ import java.util.Set;
 
 import javax.mail.internet.SharedInputStream;
 
-import org.apache.commons.vfs2.Capability;
-import org.apache.commons.vfs2.FileObject;
-import org.apache.commons.vfs2.FileSystemException;
-import org.apache.commons.vfs2.RandomAccessContent;
+import org.apache.commons.vfs.Capability;
+import org.apache.commons.vfs.FileObject;
+import org.apache.commons.vfs.FileSystemException;
+import org.apache.commons.vfs.RandomAccessContent;
 
 /**
  * A wrapper to an FileObject to get a {@link javax.mail.internet.SharedInputStream}

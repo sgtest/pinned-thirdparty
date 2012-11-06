@@ -14,19 +14,19 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.apache.commons.vfs2.cache;
+package org.apache.commons.vfs.cache;
 
 import java.io.File;
 
 import junit.framework.Test;
 
 import org.apache.commons.AbstractVfsTestCase;
-import org.apache.commons.vfs2.FileObject;
-import org.apache.commons.vfs2.FileSystemManager;
-import org.apache.commons.vfs2.FilesCache;
-import org.apache.commons.vfs2.test.AbstractProviderTestConfig;
-import org.apache.commons.vfs2.test.CacheTestSuite;
-import org.apache.commons.vfs2.test.ProviderTestConfig;
+import org.apache.commons.vfs.FileObject;
+import org.apache.commons.vfs.FileSystemManager;
+import org.apache.commons.vfs.FilesCache;
+import org.apache.commons.vfs.test.AbstractProviderTestConfig;
+import org.apache.commons.vfs.test.CacheTestSuite;
+import org.apache.commons.vfs.test.ProviderTestConfig;
 
 /**
  * Tests the NullFilesCache
@@ -39,7 +39,7 @@ public class NullFilesCacheTestCase
 {
     public static Test suite() throws Exception
     {
-        CacheTestSuite suite = new CacheTestSuite(new org.apache.commons.vfs2.cache.NullFilesCacheTestCase());
+        CacheTestSuite suite = new CacheTestSuite(new org.apache.commons.vfs.cache.NullFilesCacheTestCase());
         suite.addTests(NullFilesCacheTests.class);
         return suite;
     }

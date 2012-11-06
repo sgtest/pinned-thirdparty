@@ -14,12 +14,12 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.apache.commons.vfs2.test;
+package org.apache.commons.vfs.test;
 
 import java.io.IOException;
 
-import org.apache.commons.vfs2.Capability;
-import org.apache.commons.vfs2.FileObject;
+import org.apache.commons.vfs.Capability;
+import org.apache.commons.vfs.FileObject;
 
 /**
  * URL Test cases for providers that supply structural info.

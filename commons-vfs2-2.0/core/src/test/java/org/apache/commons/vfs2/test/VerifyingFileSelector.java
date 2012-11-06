@@ -14,7 +14,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.apache.commons.vfs2.test;
+package org.apache.commons.vfs.test;
 
 import java.util.ArrayList;
 import java.util.HashSet;
@@ -23,11 +23,11 @@ import java.util.Set;
 
 import junit.framework.Assert;
 
-import org.apache.commons.vfs2.FileObject;
-import org.apache.commons.vfs2.FileSelectInfo;
-import org.apache.commons.vfs2.FileSelector;
-import org.apache.commons.vfs2.FileSystemException;
-import org.apache.commons.vfs2.FileType;
+import org.apache.commons.vfs.FileObject;
+import org.apache.commons.vfs.FileSelectInfo;
+import org.apache.commons.vfs.FileSelector;
+import org.apache.commons.vfs.FileSystemException;
+import org.apache.commons.vfs.FileType;
 
 /**
  * A file selector that asserts that all files are visited, in the correct

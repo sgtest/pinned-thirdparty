@@ -14,7 +14,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.apache.commons.vfs2.provider.smb;
+package org.apache.commons.vfs.provider.smb;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -25,9 +25,9 @@ import jcifs.smb.SmbException;
 import jcifs.smb.SmbFile;
 import jcifs.smb.SmbRandomAccessFile;
 
-import org.apache.commons.vfs2.FileSystemException;
-import org.apache.commons.vfs2.provider.AbstractRandomAccessContent;
-import org.apache.commons.vfs2.util.RandomAccessMode;
+import org.apache.commons.vfs.FileSystemException;
+import org.apache.commons.vfs.provider.AbstractRandomAccessContent;
+import org.apache.commons.vfs.util.RandomAccessMode;
 
 /**
  * RandomAccess for smb files

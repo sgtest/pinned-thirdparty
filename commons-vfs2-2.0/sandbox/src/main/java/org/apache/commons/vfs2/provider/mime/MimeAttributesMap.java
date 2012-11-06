@@ -14,7 +14,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.apache.commons.vfs2.provider.mime;
+package org.apache.commons.vfs.provider.mime;
 
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;

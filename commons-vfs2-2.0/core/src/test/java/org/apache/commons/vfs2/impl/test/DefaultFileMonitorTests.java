@@ -14,18 +14,18 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.apache.commons.vfs2.impl.test;
+package org.apache.commons.vfs.impl.test;
 
 import java.io.File;
 import java.io.FileWriter;
 
 import org.apache.commons.AbstractVfsTestCase;
-import org.apache.commons.vfs2.FileChangeEvent;
-import org.apache.commons.vfs2.FileListener;
-import org.apache.commons.vfs2.FileObject;
-import org.apache.commons.vfs2.FileSystemManager;
-import org.apache.commons.vfs2.VFS;
-import org.apache.commons.vfs2.impl.DefaultFileMonitor;
+import org.apache.commons.vfs.FileChangeEvent;
+import org.apache.commons.vfs.FileListener;
+import org.apache.commons.vfs.FileObject;
+import org.apache.commons.vfs.FileSystemManager;
+import org.apache.commons.vfs.VFS;
+import org.apache.commons.vfs.impl.DefaultFileMonitor;
 
 /**
  * Test to verify DefaultFileMonitor

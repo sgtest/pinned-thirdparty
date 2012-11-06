@@ -14,15 +14,15 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.apache.commons.vfs2.provider.smb;
+package org.apache.commons.vfs.provider.smb;
 
-import org.apache.commons.vfs2.FileName;
-import org.apache.commons.vfs2.FileSystemException;
-import org.apache.commons.vfs2.FileType;
-import org.apache.commons.vfs2.provider.FileNameParser;
-import org.apache.commons.vfs2.provider.URLFileNameParser;
-import org.apache.commons.vfs2.provider.UriParser;
-import org.apache.commons.vfs2.provider.VfsComponentContext;
+import org.apache.commons.vfs.FileName;
+import org.apache.commons.vfs.FileSystemException;
+import org.apache.commons.vfs.FileType;
+import org.apache.commons.vfs.provider.FileNameParser;
+import org.apache.commons.vfs.provider.URLFileNameParser;
+import org.apache.commons.vfs.provider.UriParser;
+import org.apache.commons.vfs.provider.VfsComponentContext;
 
 /**
  * Implementation for sftp. set default port to 139

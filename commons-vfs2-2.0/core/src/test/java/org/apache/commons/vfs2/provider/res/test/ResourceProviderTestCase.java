@@ -15,19 +15,19 @@
  * limitations under the License.
  */
 
-package org.apache.commons.vfs2.provider.res.test;
+package org.apache.commons.vfs.provider.res.test;
 
 import junit.framework.Test;
 
 import org.apache.commons.AbstractVfsTestCase;
-import org.apache.commons.vfs2.FileObject;
-import org.apache.commons.vfs2.FileSystemManager;
-import org.apache.commons.vfs2.impl.DefaultFileSystemManager;
-import org.apache.commons.vfs2.provider.jar.JarFileProvider;
-import org.apache.commons.vfs2.provider.res.ResourceFileProvider;
-import org.apache.commons.vfs2.provider.url.UrlFileProvider;
-import org.apache.commons.vfs2.test.AbstractProviderTestConfig;
-import org.apache.commons.vfs2.test.ProviderTestSuite;
+import org.apache.commons.vfs.FileObject;
+import org.apache.commons.vfs.FileSystemManager;
+import org.apache.commons.vfs.impl.DefaultFileSystemManager;
+import org.apache.commons.vfs.provider.jar.JarFileProvider;
+import org.apache.commons.vfs.provider.res.ResourceFileProvider;
+import org.apache.commons.vfs.provider.url.UrlFileProvider;
+import org.apache.commons.vfs.test.AbstractProviderTestConfig;
+import org.apache.commons.vfs.test.ProviderTestSuite;
 
 /**
  * Test cases for the resource provider.

@@ -14,12 +14,12 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.apache.commons.vfs2.provider.smb.test;
+package org.apache.commons.vfs.provider.smb.test;
 
 import org.apache.commons.AbstractVfsTestCase;
-import org.apache.commons.vfs2.FileSystemException;
-import org.apache.commons.vfs2.provider.smb.SmbFileName;
-import org.apache.commons.vfs2.provider.smb.SmbFileNameParser;
+import org.apache.commons.vfs.FileSystemException;
+import org.apache.commons.vfs.provider.smb.SmbFileName;
+import org.apache.commons.vfs.provider.smb.SmbFileNameParser;
 
 /**
  * Some additional SMB file name test cases.

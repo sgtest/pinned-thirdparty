@@ -14,12 +14,12 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.apache.commons.vfs2.provider.test;
+package org.apache.commons.vfs.provider.test;
 
 import org.apache.commons.AbstractVfsTestCase;
-import org.apache.commons.vfs2.FileSystemException;
-import org.apache.commons.vfs2.provider.GenericFileName;
-import org.apache.commons.vfs2.provider.URLFileNameParser;
+import org.apache.commons.vfs.FileSystemException;
+import org.apache.commons.vfs.provider.GenericFileName;
+import org.apache.commons.vfs.provider.URLFileNameParser;
 
 /**
  * Some GenericFileName test cases.

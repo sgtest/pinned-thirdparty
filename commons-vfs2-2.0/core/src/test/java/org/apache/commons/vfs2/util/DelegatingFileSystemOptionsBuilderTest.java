@@ -14,19 +14,19 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.apache.commons.vfs2.util;
+package org.apache.commons.vfs.util;
 
 import java.io.File;
 import java.lang.reflect.InvocationTargetException;
 
 import junit.framework.TestCase;
 
-import org.apache.commons.vfs2.FileSystemException;
-import org.apache.commons.vfs2.FileSystemOptions;
-import org.apache.commons.vfs2.impl.StandardFileSystemManager;
-import org.apache.commons.vfs2.provider.http.HttpFileSystemConfigBuilder;
-import org.apache.commons.vfs2.provider.sftp.SftpFileSystemConfigBuilder;
-import org.apache.commons.vfs2.provider.sftp.TrustEveryoneUserInfo;
+import org.apache.commons.vfs.FileSystemException;
+import org.apache.commons.vfs.FileSystemOptions;
+import org.apache.commons.vfs.impl.StandardFileSystemManager;
+import org.apache.commons.vfs.provider.http.HttpFileSystemConfigBuilder;
+import org.apache.commons.vfs.provider.sftp.SftpFileSystemConfigBuilder;
+import org.apache.commons.vfs.provider.sftp.TrustEveryoneUserInfo;
 
 /**
  * Some tests for the DelegatingFileSystemOptionsBuilder

@@ -14,21 +14,21 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.apache.commons.vfs2.test;
+package org.apache.commons.vfs.test;
 
 import java.io.OutputStream;
 import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.Set;
 
-import org.apache.commons.vfs2.Capability;
-import org.apache.commons.vfs2.FileChangeEvent;
-import org.apache.commons.vfs2.FileListener;
-import org.apache.commons.vfs2.FileObject;
-import org.apache.commons.vfs2.FileSystem;
-import org.apache.commons.vfs2.FileSystemException;
-import org.apache.commons.vfs2.FileType;
-import org.apache.commons.vfs2.Selectors;
+import org.apache.commons.vfs.Capability;
+import org.apache.commons.vfs.FileChangeEvent;
+import org.apache.commons.vfs.FileListener;
+import org.apache.commons.vfs.FileObject;
+import org.apache.commons.vfs.FileSystem;
+import org.apache.commons.vfs.FileSystemException;
+import org.apache.commons.vfs.FileType;
+import org.apache.commons.vfs.Selectors;
 
 /**
  * File system test that check that a file system can be modified.

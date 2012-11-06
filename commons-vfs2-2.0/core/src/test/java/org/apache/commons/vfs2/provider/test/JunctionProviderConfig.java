@@ -14,14 +14,14 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.apache.commons.vfs2.provider.test;
+package org.apache.commons.vfs.provider.test;
 
-import org.apache.commons.vfs2.FileObject;
-import org.apache.commons.vfs2.FileSystem;
-import org.apache.commons.vfs2.FileSystemManager;
-import org.apache.commons.vfs2.FilesCache;
-import org.apache.commons.vfs2.impl.DefaultFileSystemManager;
-import org.apache.commons.vfs2.test.ProviderTestConfig;
+import org.apache.commons.vfs.FileObject;
+import org.apache.commons.vfs.FileSystem;
+import org.apache.commons.vfs.FileSystemManager;
+import org.apache.commons.vfs.FilesCache;
+import org.apache.commons.vfs.impl.DefaultFileSystemManager;
+import org.apache.commons.vfs.test.ProviderTestConfig;
 
 /**
  * A provider config that wraps another provider, to run the tests via

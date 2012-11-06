@@ -14,18 +14,18 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.apache.commons.vfs2.provider.webdav.test;
+package org.apache.commons.vfs.provider.webdav.test;
 
 import java.io.OutputStream;
 import java.util.Map;
 
-import org.apache.commons.vfs2.FileObject;
-import org.apache.commons.vfs2.FileSystemOptions;
-import org.apache.commons.vfs2.FileType;
-import org.apache.commons.vfs2.Selectors;
-import org.apache.commons.vfs2.provider.URLFileName;
-import org.apache.commons.vfs2.provider.webdav.WebdavFileSystemConfigBuilder;
-import org.apache.commons.vfs2.test.AbstractProviderTestCase;
+import org.apache.commons.vfs.FileObject;
+import org.apache.commons.vfs.FileSystemOptions;
+import org.apache.commons.vfs.FileType;
+import org.apache.commons.vfs.Selectors;
+import org.apache.commons.vfs.provider.URLFileName;
+import org.apache.commons.vfs.provider.webdav.WebdavFileSystemConfigBuilder;
+import org.apache.commons.vfs.test.AbstractProviderTestCase;
 import org.apache.jackrabbit.webdav.version.DeltaVConstants;
 import org.apache.jackrabbit.webdav.version.VersionControlledResource;
 

@@ -14,12 +14,12 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.apache.commons.vfs2.test;
+package org.apache.commons.vfs.test;
 
 import junit.framework.AssertionFailedError;
 
-import org.apache.commons.vfs2.Capability;
-import org.apache.commons.vfs2.FileObject;
+import org.apache.commons.vfs.Capability;
+import org.apache.commons.vfs.FileObject;
 
 /**
  * Test cases for getting and setting file last modified time.

@@ -14,13 +14,13 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.apache.commons.vfs2.test;
+package org.apache.commons.vfs.test;
 
-import org.apache.commons.vfs2.Capability;
-import org.apache.commons.vfs2.FileObject;
-import org.apache.commons.vfs2.RandomAccessContent;
-import org.apache.commons.vfs2.Selectors;
-import org.apache.commons.vfs2.util.RandomAccessMode;
+import org.apache.commons.vfs.Capability;
+import org.apache.commons.vfs.FileObject;
+import org.apache.commons.vfs.RandomAccessContent;
+import org.apache.commons.vfs.Selectors;
+import org.apache.commons.vfs.util.RandomAccessMode;
 
 /**
  * RanomdRead/Write test cases for file providers.

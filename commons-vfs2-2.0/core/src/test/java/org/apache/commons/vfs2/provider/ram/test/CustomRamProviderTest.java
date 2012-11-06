@@ -14,18 +14,18 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.apache.commons.vfs2.provider.ram.test;
+package org.apache.commons.vfs.provider.ram.test;
 
 import java.io.OutputStream;
 
 import junit.framework.TestCase;
 
-import org.apache.commons.vfs2.FileObject;
-import org.apache.commons.vfs2.FileSystemException;
-import org.apache.commons.vfs2.FileSystemOptions;
-import org.apache.commons.vfs2.impl.DefaultFileSystemManager;
-import org.apache.commons.vfs2.provider.ram.RamFileProvider;
-import org.apache.commons.vfs2.provider.ram.RamFileSystemConfigBuilder;
+import org.apache.commons.vfs.FileObject;
+import org.apache.commons.vfs.FileSystemException;
+import org.apache.commons.vfs.FileSystemOptions;
+import org.apache.commons.vfs.impl.DefaultFileSystemManager;
+import org.apache.commons.vfs.provider.ram.RamFileProvider;
+import org.apache.commons.vfs.provider.ram.RamFileSystemConfigBuilder;
 
 /**
  * Custom tests

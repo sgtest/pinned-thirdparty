@@ -14,19 +14,19 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.apache.commons.vfs2.provider.sftp.test;
+package org.apache.commons.vfs.provider.sftp.test;
 
 import junit.framework.Test;
 
-import org.apache.commons.vfs2.FileObject;
-import org.apache.commons.vfs2.FileSystemManager;
-import org.apache.commons.vfs2.FileSystemOptions;
-import org.apache.commons.vfs2.impl.DefaultFileSystemManager;
-import org.apache.commons.vfs2.provider.sftp.SftpFileProvider;
-import org.apache.commons.vfs2.provider.sftp.SftpFileSystemConfigBuilder;
-import org.apache.commons.vfs2.provider.sftp.TrustEveryoneUserInfo;
-import org.apache.commons.vfs2.test.AbstractProviderTestConfig;
-import org.apache.commons.vfs2.test.ProviderTestSuite;
+import org.apache.commons.vfs.FileObject;
+import org.apache.commons.vfs.FileSystemManager;
+import org.apache.commons.vfs.FileSystemOptions;
+import org.apache.commons.vfs.impl.DefaultFileSystemManager;
+import org.apache.commons.vfs.provider.sftp.SftpFileProvider;
+import org.apache.commons.vfs.provider.sftp.SftpFileSystemConfigBuilder;
+import org.apache.commons.vfs.provider.sftp.TrustEveryoneUserInfo;
+import org.apache.commons.vfs.test.AbstractProviderTestConfig;
+import org.apache.commons.vfs.test.ProviderTestSuite;
 
 /**
  * Test cases for the SFTP provider.

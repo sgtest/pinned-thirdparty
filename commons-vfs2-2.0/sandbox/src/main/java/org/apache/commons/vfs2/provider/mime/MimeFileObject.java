@@ -14,7 +14,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.apache.commons.vfs2.provider.mime;
+package org.apache.commons.vfs.provider.mime;
 
 import java.io.ByteArrayInputStream;
 import java.io.InputStream;
@@ -31,16 +31,16 @@ import javax.mail.Multipart;
 import javax.mail.Part;
 import javax.mail.internet.MimeMultipart;
 
-import org.apache.commons.vfs2.FileContentInfoFactory;
-import org.apache.commons.vfs2.FileObject;
-import org.apache.commons.vfs2.FileSystemException;
-import org.apache.commons.vfs2.FileType;
-import org.apache.commons.vfs2.NameScope;
-import org.apache.commons.vfs2.provider.AbstractFileName;
-import org.apache.commons.vfs2.provider.AbstractFileObject;
-import org.apache.commons.vfs2.provider.AbstractFileSystem;
-import org.apache.commons.vfs2.provider.UriParser;
-import org.apache.commons.vfs2.util.FileObjectUtils;
+import org.apache.commons.vfs.FileContentInfoFactory;
+import org.apache.commons.vfs.FileObject;
+import org.apache.commons.vfs.FileSystemException;
+import org.apache.commons.vfs.FileType;
+import org.apache.commons.vfs.NameScope;
+import org.apache.commons.vfs.provider.AbstractFileName;
+import org.apache.commons.vfs.provider.AbstractFileObject;
+import org.apache.commons.vfs.provider.AbstractFileSystem;
+import org.apache.commons.vfs.provider.UriParser;
+import org.apache.commons.vfs.util.FileObjectUtils;
 
 /**
  * A part of a MIME message.
@@ -150,7 +150,7 @@ public class MimeFileObject
 
     /**
      * Lists the children of the file.  Is only called if {@link #doGetType}
-     * returns {@link org.apache.commons.vfs2.FileType#FOLDER}.
+     * returns {@link org.apache.commons.vfs.FileType#FOLDER}.
      */
     @Override
     protected FileObject[] doListChildrenResolved() throws Exception

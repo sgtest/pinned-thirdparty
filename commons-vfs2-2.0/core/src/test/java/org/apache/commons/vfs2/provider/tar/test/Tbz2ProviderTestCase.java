@@ -14,20 +14,20 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.apache.commons.vfs2.provider.tar.test;
+package org.apache.commons.vfs.provider.tar.test;
 
 import java.io.File;
 
 import junit.framework.Test;
 
 import org.apache.commons.AbstractVfsTestCase;
-import org.apache.commons.vfs2.FileObject;
-import org.apache.commons.vfs2.FileSystemManager;
-import org.apache.commons.vfs2.impl.DefaultFileSystemManager;
-import org.apache.commons.vfs2.provider.tar.TarFileProvider;
-import org.apache.commons.vfs2.test.AbstractProviderTestConfig;
-import org.apache.commons.vfs2.test.ProviderTestConfig;
-import org.apache.commons.vfs2.test.ProviderTestSuite;
+import org.apache.commons.vfs.FileObject;
+import org.apache.commons.vfs.FileSystemManager;
+import org.apache.commons.vfs.impl.DefaultFileSystemManager;
+import org.apache.commons.vfs.provider.tar.TarFileProvider;
+import org.apache.commons.vfs.test.AbstractProviderTestConfig;
+import org.apache.commons.vfs.test.ProviderTestConfig;
+import org.apache.commons.vfs.test.ProviderTestSuite;
 
 /**
  * Tests for the Tar file system.

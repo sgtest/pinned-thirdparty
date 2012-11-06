@@ -14,15 +14,15 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.apache.commons.vfs2.provider.test;
+package org.apache.commons.vfs.provider.test;
 
 import java.io.File;
 
 import org.apache.commons.AbstractVfsTestCase;
-import org.apache.commons.vfs2.FileObject;
-import org.apache.commons.vfs2.FileSystem;
-import org.apache.commons.vfs2.FileSystemException;
-import org.apache.commons.vfs2.test.AbstractProviderTestCase;
+import org.apache.commons.vfs.FileObject;
+import org.apache.commons.vfs.FileSystem;
+import org.apache.commons.vfs.FileSystemException;
+import org.apache.commons.vfs.test.AbstractProviderTestCase;
 
 /**
  * Additional junction test cases.

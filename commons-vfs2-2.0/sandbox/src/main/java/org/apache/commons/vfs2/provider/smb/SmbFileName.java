@@ -14,12 +14,12 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.apache.commons.vfs2.provider.smb;
+package org.apache.commons.vfs.provider.smb;
 
-import org.apache.commons.vfs2.FileName;
-import org.apache.commons.vfs2.FileSystemException;
-import org.apache.commons.vfs2.FileType;
-import org.apache.commons.vfs2.provider.GenericFileName;
+import org.apache.commons.vfs.FileName;
+import org.apache.commons.vfs.FileSystemException;
+import org.apache.commons.vfs.FileType;
+import org.apache.commons.vfs.provider.GenericFileName;
 
 /**
  * An SMB URI.  Adds a share name to the generic URI.

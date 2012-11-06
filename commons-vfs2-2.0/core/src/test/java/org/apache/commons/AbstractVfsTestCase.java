@@ -24,8 +24,8 @@ import java.util.regex.Pattern;
 
 import junit.framework.TestCase;
 
-import org.apache.commons.vfs2.FileSystemException;
-import org.apache.commons.vfs2.util.Messages;
+import org.apache.commons.vfs.FileSystemException;
+import org.apache.commons.vfs.util.Messages;
 
 /**
  * A base class for VFS tests.  Provides utility methods for locating

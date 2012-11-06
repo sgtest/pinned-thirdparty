@@ -14,12 +14,12 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.apache.commons.vfs2.test;
+package org.apache.commons.vfs.test;
 
-import org.apache.commons.vfs2.FileObject;
-import org.apache.commons.vfs2.FileSystemManager;
-import org.apache.commons.vfs2.FilesCache;
-import org.apache.commons.vfs2.impl.DefaultFileSystemManager;
+import org.apache.commons.vfs.FileObject;
+import org.apache.commons.vfs.FileSystemManager;
+import org.apache.commons.vfs.FilesCache;
+import org.apache.commons.vfs.impl.DefaultFileSystemManager;
 
 /**
  * Test configuration for a file system.

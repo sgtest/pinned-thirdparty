@@ -14,16 +14,16 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.apache.commons.vfs2.example;
+package org.apache.commons.vfs.example;
 
 import java.text.DateFormat;
 import java.util.Date;
 
-import org.apache.commons.vfs2.FileObject;
-import org.apache.commons.vfs2.FileSystemException;
-import org.apache.commons.vfs2.FileSystemManager;
-import org.apache.commons.vfs2.FileType;
-import org.apache.commons.vfs2.VFS;
+import org.apache.commons.vfs.FileObject;
+import org.apache.commons.vfs.FileSystemException;
+import org.apache.commons.vfs.FileSystemManager;
+import org.apache.commons.vfs.FileType;
+import org.apache.commons.vfs.VFS;
 
 /**
  * A simple that prints the properties of the file passed as first parameter.
@@ -39,7 +39,7 @@ public class ShowProperties
         if (args.length == 0)
         {
             System.err.println("Please pass the name of a file as parameter.");
-            System.err.println("e.g. java org.apache.commons.vfs2.example.ShowProperties LICENSE.txt");
+            System.err.println("e.g. java org.apache.commons.vfs.example.ShowProperties LICENSE.txt");
             return;
         }
         for (int i = 0; i < args.length; i++)

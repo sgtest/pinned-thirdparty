@@ -14,10 +14,10 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.apache.commons.vfs2.example;
+package org.apache.commons.vfs.example;
 
-import org.apache.commons.vfs2.FileObject;
-import org.apache.commons.vfs2.VFS;
+import org.apache.commons.vfs.FileObject;
+import org.apache.commons.vfs.VFS;
 
 /**
  * Simply changed the last modification time of the given file

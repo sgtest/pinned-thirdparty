@@ -14,7 +14,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.apache.commons.vfs2.provider.smb;
+package org.apache.commons.vfs.provider.smb;
 
 import java.io.InputStream;
 import java.io.OutputStream;
@@ -26,18 +26,18 @@ import jcifs.smb.SmbFile;
 import jcifs.smb.SmbFileInputStream;
 import jcifs.smb.SmbFileOutputStream;
 
-import org.apache.commons.vfs2.FileName;
-import org.apache.commons.vfs2.FileObject;
-import org.apache.commons.vfs2.FileSystemException;
-import org.apache.commons.vfs2.FileType;
-import org.apache.commons.vfs2.FileTypeHasNoContentException;
-import org.apache.commons.vfs2.RandomAccessContent;
-import org.apache.commons.vfs2.UserAuthenticationData;
-import org.apache.commons.vfs2.provider.AbstractFileName;
-import org.apache.commons.vfs2.provider.AbstractFileObject;
-import org.apache.commons.vfs2.provider.UriParser;
-import org.apache.commons.vfs2.util.RandomAccessMode;
-import org.apache.commons.vfs2.util.UserAuthenticatorUtils;
+import org.apache.commons.vfs.FileName;
+import org.apache.commons.vfs.FileObject;
+import org.apache.commons.vfs.FileSystemException;
+import org.apache.commons.vfs.FileType;
+import org.apache.commons.vfs.FileTypeHasNoContentException;
+import org.apache.commons.vfs.RandomAccessContent;
+import org.apache.commons.vfs.UserAuthenticationData;
+import org.apache.commons.vfs.provider.AbstractFileName;
+import org.apache.commons.vfs.provider.AbstractFileObject;
+import org.apache.commons.vfs.provider.UriParser;
+import org.apache.commons.vfs.util.RandomAccessMode;
+import org.apache.commons.vfs.util.UserAuthenticatorUtils;
 
 /**
  * A file in an SMB file system.
@@ -229,7 +229,7 @@ public class SmbFileObject
         {
             if (e.getErrorCode() == SmbException.ERRbadfile)
             {
-                throw new org.apache.commons.vfs2.FileNotFoundException(getName());
+                throw new org.apache.commons.vfs.FileNotFoundException(getName());
             }
             else if (file.isDirectory())
             {
