@@ -28,6 +28,11 @@
         <if-available class-name="org.apache.commons.vfs.provider.tar.TarInputStream"/>
     </provider>
 
+	<provider class-name="org.apache.commons.vfs.provider.smb.SmbFileProvider">
+		<scheme name="smb"/>
+		<if-available class-name="jcifs.smb.SmbFile"/>
+	</provider>
+
     <provider class-name="org.apache.commons.vfs.provider.bzip2.Bzip2FileProvider">
         <scheme name="bz2"/>
         <if-available class-name="org.apache.commons.vfs.provider.bzip2.CBZip2InputStream"/>
