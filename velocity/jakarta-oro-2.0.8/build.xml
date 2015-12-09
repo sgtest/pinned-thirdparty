@@ -77,6 +77,8 @@ Run ant -projecthelp for complete list of targets with descriptions.
     <target name="lib" depends="prepare"
             description="Compiles the library classes only.">
         <javac srcdir="${build.src}"
+						source="1.4"
+						target="1.4"
             destdir="${build.dest}"
             excludes="examples/**,tools/**"
             debug="${debug}"
@@ -89,6 +91,8 @@ Run ant -projecthelp for complete list of targets with descriptions.
     <target name="examples" depends="prepare,lib"
             description="Compiles the example classes.">
         <javac srcdir="${build.src}"
+						source="1.4"
+						target="1.4"
             destdir="${build.dest}"
             includes="examples/**"
             debug="${debug}"
@@ -101,6 +105,8 @@ Run ant -projecthelp for complete list of targets with descriptions.
     <target name="tools" depends="prepare,lib"
             description="Compiles the tool classes.">
         <javac srcdir="${build.src}"
+						source="1.4"
+						target="1.4"
             destdir="${build.dest}"
             includes="tools/**"
             debug="${debug}"
@@ -113,6 +119,8 @@ Run ant -projecthelp for complete list of targets with descriptions.
     <target name="tests" depends="prepare,lib"
             description="Compiles and runs the unit tests.">
         <javac srcdir="${build.src}/tests"
+						source="1.4"
+						target="1.4"
             destdir="${build.tests}"
             debug="${debug}"
             deprecation="${deprecation}"

@@ -181,6 +181,8 @@
     <javac srcdir="${build.src}"
       destdir="${build.dest}"
       debug="${debug}"
+			source="1.4"
+			target="1.4"
       deprecation="${deprecation}"
       optimize="${optimize}">
 

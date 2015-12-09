@@ -80,14 +80,14 @@ public abstract class RegexFilenameFilter implements FilenameFilter,
   PatternMatcher _matcher;
   Pattern _pattern;
 
-  RegexFilenameFilter(PatternCache cache, PatternMatcher matcher, String regex)
+  public RegexFilenameFilter(PatternCache cache, PatternMatcher matcher, String regex)
   {
     _cache   = cache;
     _matcher = matcher;
     setFilterExpression(regex);
   }
 
-  RegexFilenameFilter(PatternCache cache, PatternMatcher matcher,
+  public RegexFilenameFilter(PatternCache cache, PatternMatcher matcher,
 		      String regex, int options)
   {
     _cache   = cache;
@@ -95,7 +95,7 @@ public abstract class RegexFilenameFilter implements FilenameFilter,
     setFilterExpression(regex, options);
   }
 
-  RegexFilenameFilter(PatternCache cache, PatternMatcher matcher) {
+  public RegexFilenameFilter(PatternCache cache, PatternMatcher matcher) {
     this(cache, matcher, "");
   }
 
